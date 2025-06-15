@@ -1,0 +1,29 @@
+[
+    {
+        "id": "1",
+        "name": "Diamond Solitaire Ring",
+        "description": "Exquisite diamond solitaire ring with 18K white gold band.",
+        "price": 1999.99,
+        "category": "rings",
+        "image": "/assets/images/ring1.jpg",
+        "featured": true
+    },
+    {
+        "id": "2",
+        "name": "Pearl Necklace",
+        "description": "Elegant freshwater pearl necklace with sterling silver clasp.",
+        "price": 499.99,
+        "category": "necklaces",
+        "image": "/assets/images/necklace1.jpg",
+        "featured": true
+    },
+    {
+        "id": "3",
+        "name": "Gold Hoop Earrings",
+        "description": "Classic 14K gold hoop earrings, perfect for any occasion.",
+        "price": 299.99,
+        "category": "earrings",
+        "image": "/assets/images/earrings1.jpg",
+        "featured": true
+    }
+]

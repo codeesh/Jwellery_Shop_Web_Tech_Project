@@ -1,0 +1,9 @@
+[
+    {
+        "id": "1",
+        "name": "Admin",
+        "email": "admin@jewelryshop.com",
+        "password": "1010",
+        "role": "admin"
+    }
+]
