@@ -13,7 +13,7 @@
     <nav class="navbar">
         <div class="nav-container">
             <div class="nav-logo">
-                <h1><a href="/">✨ Jewelry Shop</a></h1>
+                <h1><a href="/">📿Jewelry Shop</a></h1>
             </div>
             <ul class="nav-menu">
                 <li><a href="/" class="nav-link">Home</a></li>
