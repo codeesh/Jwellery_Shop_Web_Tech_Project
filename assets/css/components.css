@@ -133,6 +133,7 @@
   border-radius: 8px;
   overflow: hidden;
   box-shadow: var(--box-shadow);
+  height: 100vh;
 }
 
 .hero-image img {
@@ -825,16 +826,73 @@
     border-top: 1px dashed rgba(0,0,0,0.1);
 }
 
-/* Responsive Adjustments */
-@media (max-width: 768px) {
-    .contact-grid {
-        grid-template-columns: 1fr;
-        max-width: 500px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    
-    .contact-card {
-        padding: 1.5rem;
-    }
+/* Toast Notifications */
+.toast {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--dark-color);
+    color: white;
+    padding: 12px 24px;
+    border-radius: 4px;
+    z-index: 1000;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.toast.show {
+    opacity: 1;
+}
+
+/* Cart Quantity Controls */
+.quantity-controls {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 0.5rem 0;
+}
+
+.quantity-btn {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid var(--gray-color);
+    background: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quantity-btn:hover {
+    background-color: var(--primary-color);
+    color: white;
+    border-color: var(--primary-color);
+}
+
+/* Empty Cart Message */
+.empty-cart {
+    text-align: center;
+    padding: 2rem;
+    color: #777;
+}
+
+/* Admin Panel */
+#admin-panel {
+    position: fixed;
+    right: -400px;
+    top: 0;
+    width: 400px;
+    height: 100vh;
+    background: white;
+    box-shadow: var(--box-shadow);
+    z-index: 1000;
+    transition: right 0.3s ease;
+    padding: 1.5rem;
+    overflow-y: auto;
+}
+
+#admin-panel.active {
+    right: 0;
 }

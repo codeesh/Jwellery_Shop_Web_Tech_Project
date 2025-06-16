@@ -13,7 +13,7 @@ $featured_products = get_featured_products();
         <a href="/products.php" class="cta-btn">Shop Now</a>
     </div>
     <div class="hero-image">
-        <img src="/assets/images/hero.jpg" alt="Luxury Jewelry">
+        <img src="/images/luxury_jwelry_hero_img.jpg" alt="Luxury Jewelry">
     </div>
 </section>
 
@@ -28,7 +28,7 @@ $featured_products = get_featured_products();
                 </div>
                 <div class="product-info">
                     <h3><?php echo $product['name']; ?></h3>
-                    <p class="product-price">$<?php echo number_format($product['price'], 2); ?></p>
+                    <p class="product-price">৳<?php echo number_format($product['price'], 2); ?></p>
                     <button class="add-to-cart" data-id="<?php echo $product['id']; ?>">Add to Cart</button>
                 </div>
             </div>

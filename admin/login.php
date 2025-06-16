@@ -1,8 +1,11 @@
 <?php
-// Add session_start() at the very beginning
+
 session_start();
 require_once '../includes/config.php';
 require_once '../includes/functions.php';
+
+session_regenerate_id(true);
+$_SESSION = array();
 
 // Redirect if already logged in
 if (isset($_SESSION['admin'])) {
@@ -40,11 +43,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         }
         
         // Verify credentials
-        if ($admin && isset($admin['password']) && password_verify($password, $admin['password'])) {
+        if ($admin && isset($admin['password']) && $password === $admin['password']) {
             $_SESSION['admin'] = [
                 'id' => $admin['id'] ?? '',
                 'name' => $admin['name'] ?? '',
                 'email' => $admin['email'] ?? '',
+                'password' => $admin['password'] ?? '',
                 'role' => $admin['role'] ?? ''
             ];
             header('Location: dashboard.php');

@@ -13,14 +13,13 @@ require_once 'includes/header.php';
                     <i class="fas fa-store"></i>
                 </div>
                 <h3>Visit Us</h3>
-                <p>123 Jewelry Lane<br>
-                Diamond District<br>
-                New York, NY 10001</p>
+                <p>Kuratoli Road<br>
+                AIUB<br>
+                Kuril, Dhaka</p>
                 <p class="hours">
                     <strong>Hours:</strong><br>
-                    Mon-Fri: 10am - 7pm<br>
-                    Sat: 10am - 5pm<br>
-                    Sun: Closed
+                    Sun-Thu: 8am - 5pm<br>
+                    Fri-Sat: Closed
                 </p>
             </div>
             
@@ -30,7 +29,7 @@ require_once 'includes/header.php';
                 </div>
                 <h3>Call Us</h3>
                 <p class="phone-number">
-                    <a href="tel:+15551234567">(555) 123-4567</a>
+                    <a href="tel:+15551234567">+8801245678910</a>
                 </p>
                 <p>For immediate assistance during business hours</p>
             </div>

@@ -23,36 +23,15 @@ require_once 'includes/header.php';
                         <h3>🛡️ Lifetime Warranty</h3>
                         <p>Guaranteed craftsmanship and quality</p>
                     </div>
+                    <div class="feature">
+                        <h3>♻️ Ethically Sourced Materials</h3>
+                        <p>Used best materials</p>
+                    </div>
                 </div>
             </div>
             
             <div class="about-image">
-                <img src="/assets/images/about.jpg" alt="Jewelry Crafting">
-            </div>
-        </div>
-        
-        <!-- Our Team Section -->
-        <div class="team-section">
-            <h3>Meet Our Master Jewelers</h3>
-            <div class="team-grid">
-                <div class="team-member">
-                    <img src="/assets/images/team1.jpg" alt="Sarah Johnson">
-                    <h4>Sarah Johnson</h4>
-                    <p>Head Designer</p>
-                    <p>25 years of experience in diamond setting</p>
-                </div>
-                <div class="team-member">
-                    <img src="/assets/images/team2.jpg" alt="Michael Chen">
-                    <h4>Michael Chen</h4>
-                    <p>Master Goldsmith</p>
-                    <p>Specializes in custom engagement rings</p>
-                </div>
-                <div class="team-member">
-                    <img src="/assets/images/team3.jpg" alt="Elena Rodriguez">
-                    <h4>Elena Rodriguez</h4>
-                    <p>Gemstone Expert</p>
-                    <p>GIA certified gemologist</p>
-                </div>
+                <img src="/images/crafting.jpg" alt="Jewelry Crafting">
             </div>
         </div>
     </div>

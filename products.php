@@ -27,7 +27,7 @@ $products = $category === 'all' ? get_products() : get_products_by_category($cat
                 </div>
                 <div class="product-info">
                     <h3><?php echo $product['name']; ?></h3>
-                    <p class="product-price">$<?php echo number_format($product['price'], 2); ?></p>
+                    <p class="product-price">৳<?php echo number_format($product['price'], 2); ?></p>
                     <button class="add-to-cart" data-id="<?php echo $product['id']; ?>">Add to Cart</button>
                 </div>
             </div>
