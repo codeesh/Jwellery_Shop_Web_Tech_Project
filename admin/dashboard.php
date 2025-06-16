@@ -80,7 +80,7 @@ require_once '../includes/header.php';
                 <img src="<?php echo $product['image']; ?>" alt="<?php echo $product['name']; ?>">
                 <div class="product-details">
                     <h4><?php echo $product['name']; ?></h4>
-                    <p>$<?php echo number_format($product['price'], 2); ?></p>
+                    <p>৳<?php echo number_format($product['price'], 2); ?></p>
                     <p><?php echo ucfirst($product['category']); ?></p>
                     <?php if ($product['featured'] ?? false): ?>
                         <span class="featured-badge">Featured</span>
