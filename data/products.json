@@ -5,7 +5,7 @@
         "description": "Exquisite diamond solitaire ring with 18K white gold band.",
         "price": 50000,
         "category": "rings",
-        "image": "/images/ring.jpg",
+        "image": "\/images\/ring.jpg",
         "featured": true
     },
     {
@@ -14,7 +14,7 @@
         "description": "Elegant freshwater pearl necklace with sterling silver clasp.",
         "price": 150000,
         "category": "necklaces",
-        "image": "/images/necklace.jpg",
+        "image": "\/images\/necklace.jpg",
         "featured": true
     },
     {
@@ -23,7 +23,7 @@
         "description": "Classic 14K gold hoop earrings, perfect for any occasion.",
         "price": 80000,
         "category": "earrings",
-        "image": "/images/earrings.jpg",
+        "image": "\/images\/earrings.jpg",
         "featured": true
     },
     {
@@ -32,7 +32,16 @@
         "description": "Classic diamond bracelet, perfect for any occasion.",
         "price": 70000,
         "category": "bracelets",
-        "image": "/images/bracelets.jpg",
+        "image": "\/images\/bracelets.jpg",
         "featured": true
+    },
+    {
+        "name": "bracelet",
+        "description": "Premium Gold Bracelet",
+        "price": 109999.97,
+        "category": "bracelets",
+        "image": "\/images\/bracelet_2.jpg",
+        "featured": false,
+        "id": "684fbd9f6b18b"
     }
 ]
